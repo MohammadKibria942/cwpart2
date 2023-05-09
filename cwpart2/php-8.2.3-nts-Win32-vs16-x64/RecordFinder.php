@@ -1,11 +1,10 @@
 <?php
 	header('Access-Control-Allow-Origin: *');
 	$nhsNo = $_POST['NhsNo'];
-	$notFound = "no records";
 
 	
-	$pdo = new \PDO("sqlite: vaccines.db");//Change to GPSurgery.db
-	$st = $pdo->query("SELECT * from patients where NHSNumber='".$nhsNo."'");
+	$pdo = new \PDO("sqlite: GPSurgery.db");//Change to GPSurgery.db
+	$st = $pdo->query("SELECT * from registeredPatientRecords where NHSNumber='".$nhsNo."'");
      
     $st->execute();
 	$records = [];
