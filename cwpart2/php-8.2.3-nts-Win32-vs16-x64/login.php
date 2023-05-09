@@ -34,13 +34,13 @@ if ($userType === 'option1') {
 } elseif ($userType === 'option2') {
     $sql = "SELECT * FROM doctorLogin WHERE UserName = :username AND Password = :password";
     $stmt = $conn->prepare($sql);
-    $stmt->bindParam(':username', $data->username);
-    $stmt->bindParam(':password', $data->password);
+    $stmt->bindParam(':username', $data->UserName);
+    $stmt->bindParam(':password', $data->Password);
 } elseif ($userType === 'option3') {
     $sql = "SELECT * FROM receptionistLogin WHERE UserName = :username AND Password = :password";
     $stmt = $conn->prepare($sql);
-    $stmt->bindParam(':username', $data->username);
-    $stmt->bindParam(':password', $data->password);
+    $stmt->bindParam(':username', $data->UserName);
+    $stmt->bindParam(':password', $data->Password);
 } else {
     echo json_encode(array('status' => 'error', 'message' => 'Invalid user type'));
     exit();

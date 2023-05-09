@@ -1,0 +1,11 @@
+div2 { /*is used*/
+    position: relative;
+    left: 290px;
+}
+
+fieldset { /*is used*/
+    margin-left: 290px;
+    margin-right: 45%;
+    border: 0;
+    margin-bottom: 107px;
+}

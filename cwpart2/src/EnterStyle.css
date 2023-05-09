@@ -1,0 +1,56 @@
+
+
+/*div1 {
+    position: relative;
+    right: 100px;
+    width: 200%;
+    
+   
+} not sure if its in use*/
+
+div2 { /*is used*/
+    position: relative;
+    left: 290px;
+}
+
+/*may not be used*/ .div3 { /*may not be used*/
+    position: relative;
+    left: 300px;
+}
+
+/*may not be used*/ div4 { /*may not be used*/
+    position: relative;
+    margin-bottom: 2em;
+    width: 70%;
+    resize: 70%;
+}
+
+/*may not be used*/ div5 { /*may not be used*/
+    padding: 7px 20px 0px 300px; /* Adjust the padding */
+}
+
+.inputField { /*may not be used*/
+    margin-bottom: 20px;
+    font-size: 14px; /* Reduce the font size */
+    padding: 7px 20px 0px 300px; /* Adjust the padding */
+    width: 610px; /* Adjust the width */
+}
+
+.backlink-container {
+    padding: 7px 20px 0px 190px; /* Adjust the padding */ /*may not be used*/
+}
+
+
+
+fieldset { /*is used*/
+    margin-left: 290px;
+    margin-right: 45%;
+    border: 0;
+    margin-bottom: 110px;
+}
+
+
+
+
+
+
